@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Script: udpc-installer.sh
+# Script: ud.sh
 # Purpose: Install UDP Custom binary for ARM64
 # Credit: ePro Dev. Team
-# Author: voltsshx
+# Author: Infinity
 
 # clear screen
 clear
@@ -11,14 +11,14 @@ clear
 # Define variables
 INSTALL_DIR="/root/udp"
 BINARY_NAME="udp-custom"
-BINARY_URL="https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-arm64/main/udpc-arm64"
+BINARY_URL="https://raw.githubusercontent.com/JohnReaJR/Pro/main/ud-arm64"
 BINARY_PATH="$INSTALL_DIR/$BINARY_NAME"
 
 # Help function
 display_help() {
   clear
   echo "Install UDP Custom binary for ARM64."
-  echo "Author: voltsshx"
+  echo "Author: Infinity"
   echo "Credit: ePro Dev. Team"
   echo ""
   echo "Usage: $0 [OPTION]"

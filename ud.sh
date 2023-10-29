@@ -11,7 +11,7 @@ clear
 # Define variables
 INSTALL_DIR="/root/udp"
 BINARY_NAME="udp-custom"
-BINARY_URL="https://raw.githubusercontent.com/JohnReaJR/Pro/main/ud-arm64"
+BINARY_URL="https://raw.githubusercontent.com/JohnReaJR/Pro/main/udpc-arm64"
 BINARY_PATH="$INSTALL_DIR/$BINARY_NAME"
 
 # Help function
